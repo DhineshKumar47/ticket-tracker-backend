@@ -20,5 +20,5 @@ mongoose
 
 app.use("/api/tickets", ticketRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = "https://ticket-tracker-backend.vercel.app";
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
